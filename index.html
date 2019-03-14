@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link defer rel='stylesheet' href='./src/css/style.css'>
+    <script defer src="./dist/js/bundle.js"></script>
+</head>
+
+<body>
+    <div class='container'>
+        <div class="publisher">
+            <input id="publish-topic" type="text" placeholder="Topic" />
+            <input id="publish-message" type="text" placeholder="Message" />
+            <button id="publish">publish</button>
+        </div>
+        <div class="subscriber">
+            <div class='subscribe-action-bar'>
+                <input id="subscribe-topic" type="text" placeholder="Topic" />
+                <button id='subscribe'>subscribe</button>
+                <button id='unsubscribe'>unsubscribe</button>
+                <button id='clear'>clear</button>
+            </div>
+            <div id='subscribe-log'></div>
+        </div>
+    </div>
+</body>
+
+</html>
